@@ -1,0 +1,68 @@
+# ================================
+# Enterprise RAG Chatbot - Requirements
+# Groq LLM + Wikipedia Knowledge Base
+# ================================
+
+# Core Framework
+streamlit==1.45.0
+fastapi==0.115.12
+uvicorn==0.34.2
+
+# LangChain Ecosystem
+langchain==0.3.25
+langchain-core==0.3.59
+langchain-community==0.3.24
+langchain-groq==0.3.2
+langchain-text-splitters==0.3.8
+
+# LLM + Embeddings
+groq==0.24.0
+sentence-transformers==4.1.0
+transformers==4.51.3
+torch==2.7.0
+
+# Vector Database
+faiss-cpu==1.11.0
+chromadb==1.0.8
+
+# Document Processing
+pypdf==5.5.0
+pdfplumber==0.11.6
+python-docx==1.1.2
+
+# Wikipedia Retrieval
+wikipedia==1.4.0
+wikipedia-api==0.8.1
+
+# Data Handling
+numpy==2.2.5
+pandas==2.2.3
+
+# API + Environment
+requests==2.32.3
+python-dotenv==1.1.0
+pydantic==2.11.4
+
+# Utilities
+tqdm==4.67.1
+rich==14.0.0
+
+# Optional UI / Chat
+gradio==5.29.0
+
+# Database / Storage
+sqlalchemy==2.0.40
+
+# Logging & Monitoring
+loguru==0.7.3
+
+# Async Support
+aiohttp==3.11.18
+asyncio==3.4.3
+
+# Deployment
+gunicorn==23.0.0
+
+# Jupyter (Optional for experimentation)
+notebook==7.4.2
+ipykernel==6.29.5
